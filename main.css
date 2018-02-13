@@ -2,18 +2,40 @@ body {
   /* background: #000; */
 }
 
+.nav-wrapper {
+  background-color: #00897b;
+}
+
 .about-me, .skills, .resume, .projects {
   text-align: center;
   /* max-width: 800px; */
 }
 
-h1, h2 {
+.about-me p {
+  padding: 5px 20em 0 20em;
+}
+
+.skills {
+  padding: 20px 20em 20px 20em;
+}
+
+i {
+  font-size: 100px;
+  text-align: center;
+}
+
+h2 {
   /* color: #FF2734; */
-  text-align: left;
+  text-align: center;
+  font-size: 10%;
 }
 
 .about-me-picture {
 	max-width:15%;
 	height:auto;
   border-radius: 200px;
+}
+
+#contact-me {
+  background-color: #00897b;
 }
