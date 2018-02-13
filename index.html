@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="main.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="index.js" type="text/javascript" charset="utf-8" defer></script>
@@ -26,7 +27,7 @@
     </div>
   </nav>
   <div class="about-me" id="about-me">
-    <h2>About Me:</h2>
+    <h3>About Me:</h3>
     <img class="about-me-picture" src="https://i.imgur.com/bh3A8Gy.jpg?1">
     <p>
       My name is Fernando Donaire and I'm currently enrolled in a Web Development immersive program at General Assembly. Prior to this I was living in Seattle and working at a software startup doing technical support. Working closely with developers at my previous
@@ -35,19 +36,32 @@
     </p>
   </div>
   <div class="skills" id="skills">
-    <h2>Skills: </h2>
-    <ul class="collection">
-      <li class="collection-item">JavaScript</li>
-      <li class="collection-item">JQuery</li>
+    <h3>Skills: </h3>
+    <div class="row">
+      <div class="col s4"><i class="devicon-javascript-plain"></i></div>
+      <div class="col s4"><i class="devicon-jquery-plain-wordmark"></i></div>
+      <div class="col s4"><i class="devicon-ruby-plain-wordmark"></i></div>
+      <div class="col s4"><i class="devicon-rails-plain-wordmark"></i></div>
+      <div class="col s4"><i class="devicon-nodejs-plain-wordmark"></i></div>
+      <div class="col s4"><i class="devicon-amazonwebservices-plain-wordmark"></i></div>
+      <div class="col s4"><i class="devicon-css3-plain-wordmark"></i></div>
+      <div class="col s4"><i class="devicon-html5-plain-wordmark"></i></div>
+      <div class="col s4"><i class="devicon-bootstrap-plain-wordmark"></i></div>
+    </div>
+    <!-- <ul class="collection">
+      <li class="collection-item"><i class="devicon-javascript-plain"></i></li>
+      <li class="collection-item"><i class="devicon-jquery-plain-wordmark"></i></li>
       <li class="collection-item">Ember.js</li>
-      <li class="collection-item">Ruby</li>
-      <li class="collection-item">Ruby on Rails</li>
-      <li class="collection-item">SQL</li>
-      <li class="collection-item">CSS/Sass</li>
-      <li class="collection-item">HTML5</li>
-      <li class="collection-item">Bootstrap</li>
+      <li class="collection-item"><i class="devicon-ruby-plain-wordmark"></i></li>
+      <li class="collection-item"><i class="devicon-rails-plain-wordmark"></i></li>
+      <li class="collection-item"><i class="devicon-nodejs-plain-wordmark"></i></li>
+      <li class="collection-item"><i class="devicon-amazonwebservices-plain-wordmark"></i></li>
+      <li class="collection-item"><i class="devicon-postgresql-plain-wordmark"></i></li>
+      <li class="collection-item"><i class="devicon-css3-plain-wordmark"></i></li>
+      <li class="collection-item"><i class="devicon-html5-plain-wordmark"></i></li>
+      <li class="collection-item"><i class="devicon-bootstrap-plain-wordmark"></i></li>
       <li class="collection-item">Materialize</li>
-    </ul>
+    </ul> -->
     <!-- <ul>
       <li>JavaScript</li>
       <li>JQuery</li>
@@ -62,10 +76,10 @@
     </ul> -->
   </div>
   <div class="resume" id="resume">
-    <h2><a href="https://docs.google.com/document/d/1q5B7ZmfeNDB5nfgtl1bOiU7LJSL1rbaIxzqMS3RmK1I/edit?usp=sharing">Resume</a></h2>
+    <h3><a href="https://docs.google.com/document/d/1q5B7ZmfeNDB5nfgtl1bOiU7LJSL1rbaIxzqMS3RmK1I/edit?usp=sharing">Resume</a></h3>
   </div>
   <div class="projects" id="projects">
-    <h2>Projects: </h2>
+    <h3>Projects: </h3>
     <div class="row">
       <div class="col s12 m7">
         <div class="card">
@@ -105,7 +119,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-        © 2018 Copyright Text
+        © 2018 Copyright Fernando Donaire
         <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
       </div>
     </div>
