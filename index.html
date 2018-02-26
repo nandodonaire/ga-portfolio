@@ -16,8 +16,16 @@
 <body class="container-fluid">
   <nav>
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Fernando Donaire</a>
+      <a href="#!" class="brand-logo">Fernando Donaire</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact-me">Contact Me</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
         <li><a href="#about-me">About Me</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#resume">Resume</a></li>
@@ -38,50 +46,27 @@
   <div class="skills" id="skills">
     <h3>Skills: </h3>
     <div class="row">
-      <div class="col s4"><i class="devicon-javascript-plain"></i></div>
-      <div class="col s4"><i class="devicon-jquery-plain-wordmark"></i></div>
-      <div class="col s4"><i class="devicon-ruby-plain-wordmark"></i></div>
-      <div class="col s4"><i class="devicon-rails-plain-wordmark"></i></div>
-      <div class="col s4"><i class="devicon-nodejs-plain-wordmark"></i></div>
-      <div class="col s4"><i class="devicon-amazonwebservices-plain-wordmark"></i></div>
-      <div class="col s4"><i class="devicon-css3-plain-wordmark"></i></div>
-      <div class="col s4"><i class="devicon-html5-plain-wordmark"></i></div>
-      <div class="col s4"><i class="devicon-bootstrap-plain-wordmark"></i></div>
+      <div class="col s4 icon"><i class="devicon-javascript-plain"></i></div>
+      <div class="col s4 icon"><i class="devicon-jquery-plain-wordmark"></i></div>
+      <div class="col s4 icon"><i class="devicon-ruby-plain-wordmark"></i></div>
+      <div class="col s4 icon"><i class="devicon-rails-plain-wordmark"></i></div>
+      <div class="col s4 icon"><i class="devicon-nodejs-plain-wordmark"></i></div>
+      <div class="col s4 icon"><i class="devicon-amazonwebservices-plain-wordmark"></i></div>
+      <div class="col s4 icon"><i class="devicon-css3-plain-wordmark"></i></div>
+      <div class="col s4 icon"><i class="devicon-html5-plain-wordmark"></i></div>
+      <div class="col s4 icon"><i class="devicon-bootstrap-plain-wordmark"></i></div>
+      <div class="col s4 icon"><i class="devicon-express-original colored"></i></div>
+      <div class="col s4 icon"><i class="devicon-git-plain"></i></div>
+      <div class="col s4 icon"><i class="devicon-mongodb-plain-wordmark"></i></div>
     </div>
-    <!-- <ul class="collection">
-      <li class="collection-item"><i class="devicon-javascript-plain"></i></li>
-      <li class="collection-item"><i class="devicon-jquery-plain-wordmark"></i></li>
-      <li class="collection-item">Ember.js</li>
-      <li class="collection-item"><i class="devicon-ruby-plain-wordmark"></i></li>
-      <li class="collection-item"><i class="devicon-rails-plain-wordmark"></i></li>
-      <li class="collection-item"><i class="devicon-nodejs-plain-wordmark"></i></li>
-      <li class="collection-item"><i class="devicon-amazonwebservices-plain-wordmark"></i></li>
-      <li class="collection-item"><i class="devicon-postgresql-plain-wordmark"></i></li>
-      <li class="collection-item"><i class="devicon-css3-plain-wordmark"></i></li>
-      <li class="collection-item"><i class="devicon-html5-plain-wordmark"></i></li>
-      <li class="collection-item"><i class="devicon-bootstrap-plain-wordmark"></i></li>
-      <li class="collection-item">Materialize</li>
-    </ul> -->
-    <!-- <ul>
-      <li>JavaScript</li>
-      <li>JQuery</li>
-      <li>Ember.js</li>
-      <li>Ruby</li>
-      <li>Ruby on Rails</li>
-      <li>SQL</li>
-      <li>CSS/Sass</li>
-      <li>HTML5</li>
-      <li>Bootstrap</li>
-      <li>Materialize</li>
-    </ul> -->
   </div>
   <div class="resume" id="resume">
-    <h3><a href="https://docs.google.com/document/d/1q5B7ZmfeNDB5nfgtl1bOiU7LJSL1rbaIxzqMS3RmK1I/edit?usp=sharing">Resume</a></h3>
+    <h3><a href="https://docs.google.com/document/d/1q5B7ZmfeNDB5nfgtl1bOiU7LJSL1rbaIxzqMS3RmK1I/edit?usp=sharing" target="_blank">Resume</a></h3>
   </div>
   <div class="projects" id="projects">
     <h3>Projects: </h3>
     <div class="row">
-      <div class="col s12 m7">
+      <div class="col s12 m5">
         <div class="card">
           <div class="card-image">
             <img src="https://i.imgur.com/SnTpSoQ.png">
@@ -91,8 +76,40 @@
             <p>Build a browser-based Tic Tac Toe game using JavaScript, JQuery, Bootstrap, and Ajax.</p>
           </div>
           <div class="card-action">
-            <a href="https://nandodonaire.github.io/ticTacToe_Game/">Demo</a>
-            <a href="https://github.com/nandodonaire/ticTacToe_Game">GitHub</a>
+            <a href="https://nandodonaire.github.io/ticTacToe_Game/" target="_blank">Demo</a>
+            <a href="https://github.com/nandodonaire/ticTacToe_Game" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m5">
+        <div class="card large">
+          <div class="card-image">
+            <img src="https://i.imgur.com/yYKlAxB.png">
+            <span class="card-title">WatchNext</span>
+          </div>
+          <div class="card-content">
+            <p>A full-stack application to track TV Shows and Movies that you'd like to watch and where to watch them. Frontend built using JavaScript, JQuery, Bootstrap, and Ajax. Backend API built using Ruby on Rails</p>
+          </div>
+          <div class="card-action">
+            <a href="https://nandodonaire.github.io/WatchNext-frontend/" target="_blank">Demo</a>
+            <a href="https://github.com/nandodonaire/WatchNext-frontend" target="_blank">Frontend GitHub Repo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m5">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://i.imgur.com/PbwlGk3.png">
+            <span class="card-title">BitStash</span>
+          </div>
+          <div class="card-content">
+            <p>A full-stack data storage application that allows users to store files on an Amazon S3 bucket. Build alongside 3 other developers. Frontend built using JavaScript, JQuery, Bootstrap, and Ajax. Backend API built using Express, Node.js, and AWS</p>
+          </div>
+          <div class="card-action">
+            <a href="https://alkazams-shark-assassins.github.io/bitstash-client/" target="_blank">Demo</a>
+            <a href="https://github.com/alkazams-shark-assassins/bitstash-client" target="_blank">Frontend GitHub Repo</a>
           </div>
         </div>
       </div>
@@ -109,8 +126,8 @@
         <div class="col l4 offset-l2 s12">
           <h5 class="white-text">Links</h5>
           <ul>
-            <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/fernando-donaire/">LinkedIn</a></li>
-            <li><a class="grey-text text-lighten-3" href="https://github.com/nandodonaire/">GitHub</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/fernando-donaire/" target="_blank">LinkedIn</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://github.com/nandodonaire/" target="_blank">GitHub</a></li>
             <!-- <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
             <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li> -->
           </ul>
