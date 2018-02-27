@@ -13,6 +13,7 @@ body {
 .about-me, .skills, .resume, .projects {
   text-align: center;
   /* max-width: 800px; */
+  margin-top: 80px;
 }
 
 .about-me p {
@@ -26,13 +27,6 @@ body {
 i {
   font-size: 100px;
   text-align: center;
-}
-
-h2 {
-  /* color: #FF2734; */
-  text-align: center;
-  font-size: 10%;
-  color: black;
 }
 
 .about-me-picture {
