@@ -20,6 +20,14 @@ body {
   height: 400px;
 }
 
+.skills {
+  height: 630px;
+}
+
+.resume {
+  height: 150px;
+}
+
 .picture-summary {
   display: inline-flex;
   flex-direction: row;
@@ -46,8 +54,8 @@ body {
   /* padding-top: 50px; */
 }
 
-.skills {
-  /* padding: 10px 10em 10px 10em; */
+.skill-row {
+padding-top: 10px;
 }
 
 i {
