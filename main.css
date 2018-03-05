@@ -16,23 +16,50 @@ body {
   margin-top: 80px;
 }
 
-.about-me p {
-  padding: 5px 20em 0 20em;
+.about-me {
+  height: 400px;
 }
 
 .skills {
-  padding: 20px 20em 20px 20em;
+  height: 630px;
+}
+
+.resume {
+  height: 150px;
+}
+
+.picture-summary {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.about-me-picture {
+	/* max-width:15%; */
+  width: 25%;
+  height: 25%;
+  /* margin: auto; */
+  border-radius: 200px;
+}
+
+.about-me h3 {
+  align-self: flex-start;
+  align-content: center;
+}
+
+.about-me p {
+  padding-left: 20px;
+  width: 500px;
+  /* margin: auto; */
+  /* padding-top: 50px; */
+}
+
+.skill-row {
+padding-top: 10px;
 }
 
 i {
   font-size: 100px;
-  text-align: center;
-}
-
-.about-me-picture {
-	max-width:15%;
-	height:auto;
-  border-radius: 200px;
 }
 
 #contact-me {
