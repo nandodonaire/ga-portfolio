@@ -11,53 +11,43 @@
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="index.js" type="text/javascript" charset="utf-8" defer></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
 </head>
 
 <body class="container-fluid">
   <div class="navbar-fixed">
-  <nav>
-    <div class="nav-wrapper">
-      <a class="brand-logo">Fernando Donaire</a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li class="about-me-scroll"><a href="#about-me">About Me</a></li>
-        <li class="skills-scroll"><a href="#skills">Skills</a></li>
-        <li class="resume-scroll"><a href="#resume">Resume</a></li>
-        <li class="projects-scroll"><a href="#projects">Projects</a></li>
-        <li class="contact-me-scroll"><a href="#contact-me">Contact Me</a></li>
-      </ul>
-      <ul class="side-nav" id="mobile-demo">
-        <li class="about-me-scroll"><a href="#about-me">About Me</a></li>
-        <li class="skills-scroll"><a href="#skills">Skills</a></li>
-        <li class="resume-scroll"><a href="#resume">Resume</a></li>
-        <li class="projects-scroll"><a href="#projects">Projects</a></li>
-        <li class="contact-me-scroll"><a href="#contact-me">Contact Me</a></li>
-
-        <!-- <li><a href="#about-me">About Me</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact-me">Contact Me</a></li> -->
-      </ul>
-    </div>
-  </nav>
-</div>
-<!-- <div class="parallax-container">
-  <div class="parallax"><img src="https://i.imgur.com/HY7vNGI.jpg?1"></div>
-</div> -->
+    <nav>
+      <div class="nav-wrapper">
+        <a class="brand-logo">Fernando Donaire</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li class="about-me-scroll"><a href="#about-me">About Me</a></li>
+          <li class="skills-scroll"><a href="#skills">Skills</a></li>
+          <li class="resume-scroll"><a href="#resume">Resume</a></li>
+          <li class="projects-scroll"><a href="#projects">Projects</a></li>
+          <li class="contact-me-scroll"><a href="#contact-me">Contact Me</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li class="about-me-scroll"><a href="#about-me">About Me</a></li>
+          <li class="skills-scroll"><a href="#skills">Skills</a></li>
+          <li class="resume-scroll"><a href="#resume">Resume</a></li>
+          <li class="projects-scroll"><a href="#projects">Projects</a></li>
+          <li class="contact-me-scroll"><a href="#contact-me">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
   <div class="about-me" id="about-me">
     <h3>About Me</h3>
     <div class="picture-summary">
-    <img class="about-me-picture z-depth-2" src="https://i.imgur.com/bh3A8Gy.jpg?1">
-    <div class="summary">
-      <p>My name is Fernando Donaire and I'm currently enrolled in a Web Development immersive program at General Assembly. Prior to this I was living in Seattle and working at a software startup doing technical support. Working closely with developers at my previous
-        job, many of whom also didn't have a formal CS background, really inspired me and I started seeing development as an achievable goal.</p>
-
-        <p>In my own free time I started learning a little about coding and found that I really enjoyed it and was intrigued
-        by the idea of creating my own websites and applications. I'm learning about web development hoping to one day create or help create websites and applications and to do this as a career.
-      </p>
+      <img class="about-me-picture z-depth-2" src="https://i.imgur.com/bh3A8Gy.jpg?1">
+      <div class="summary" id="greeting">
+        <p>Hi! My name is Fernando Donaire. I'm a full-stack web developer and recently completed a full-time Immersive Web Development program at General Assembly.</p>
+        <p>Prior to this I was working at a software startup doing technical support, but wanted to pursue a more creative career. Working closely with developers at my previous job (many of whom also didn't have a formal CS background) really inspired me learn to code. In my own free time I started learning a little about coding, found that I really enjoyed it, and decided to enroll in the web development course at GA. </p>
+        <p> I decided to pursue a career in web development because I was intrigued by the idea of creating my own web applications rather than troubleshooting existing ones. I love coding because it's the perfect combination of creativity and problem solving. To me, there are few things more exciting than working hard on a project and seeing it come together.</p>
+      </div>
     </div>
-  </div>
   </div>
   <div class="container skills" id="skills">
     <h3>Skills </h3>
@@ -84,8 +74,8 @@
   </div>
   <div class="resume" id="resume">
     <h3>Resume</h3>
-    <a class="waves-effect waves-light btn" href="https://s3.amazonaws.com/nandos-bucket/resume/Fernando+Donaire+Resume+Portfolio+(3).pdf" target="_blank">View</a>
-    <a class="waves-effect waves-light btn" href="https://s3.amazonaws.com/nandos-bucket/resume/Fernando+Donaire+Resume+Portfolio+(3).pdf" download>Download</a>
+    <a class="waves-effect waves-light btn" href="https://s3.amazonaws.com/nandos-bucket/resume/Fernando+Donaire+Resume+Portfolio.pdf" target="_blank">View</a>
+    <a class="waves-effect waves-light btn" href="https://s3.amazonaws.com/nandos-bucket/resume/Fernando+Donaire+Resume+Portfolio.pdf" download>Download</a>
   </div>
   <div class="container projects" id="projects">
     <h3>Projects</h3>
@@ -129,11 +119,27 @@
             <!-- <span class="card-title">BitStash</span> -->
           </div>
           <div class="card-content">
-            <p>A full-stack data storage application that allows users to store files on an Amazon S3 bucket. Build alongside 3 other developers. Frontend built using JavaScript, JQuery, Bootstrap, and Ajax. Backend API built using Express, Node.js, and AWS</p>
+            <p>A full-stack data storage application that allows users to store files on an Amazon S3 bucket. Build alongside 3 other developers. Frontend built using JavaScript, JQuery, Bootstrap, and Ajax. Backend API built using Express, Node.js, and
+              AWS</p>
           </div>
           <div class="card-action">
             <a href="https://alkazams-shark-assassins.github.io/bitstash-client/" target="_blank">Demo</a>
             <a href="https://github.com/alkazams-shark-assassins/bitstash-client" target="_blank">Frontend GitHub Repo</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://i.imgur.com/C3qY5KZ.png" alt="BrewJournal">
+            <span class="card-title">BrewJournal</span>
+          </div>
+          <div class="card-content">
+            <p>A full-stack web application that allows users to keep track of breweries they've visited, the beers they tasted, and add notes about the breweries. Client built using Ember.js and API built using Ruby on Rails</p>
+          </div>
+          <div class="card-action">
+            <a href="https://nandodonaire.github.io/BrewJournal-client/" target="_blank">Demo</a>
+            <a href="https://github.com/nandodonaire/BrewJournal-client" target="_blank">Frontend GitHub Repo</a>
           </div>
         </div>
       </div>
@@ -145,7 +151,7 @@
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Contact Me</h5>
-        <p class="grey-text text-lighten-4">nandodonaire@gmail.com</p>
+          <p class="grey-text text-lighten-4">nandodonaire@gmail.com</p>
         </div>
         <div class="col l4 offset-l2 s12">
           <h5 class="white-text">Links</h5>
@@ -165,8 +171,6 @@
       </div>
     </div>
   </footer>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 
 </html>
