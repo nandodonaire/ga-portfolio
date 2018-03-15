@@ -21,37 +21,39 @@
 
 <body class="container-fluid">
   <header>
-  <div class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper">
-        <a class="brand-logo">Fernando Donaire</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li class="about-me-scroll"><a href="#about-me">About Me</a></li>
-          <li class="skills-scroll"><a href="#skills">Skills</a></li>
-          <li class="resume-scroll"><a href="#resume">Resume</a></li>
-          <li class="projects-scroll"><a href="#projects">Projects</a></li>
-          <li class="contact-me-scroll"><a href="#contact-me">Contact Me</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-  <ul class="side-nav" id="mobile-demo">
-    <li class="about-me-scroll"><a href="#about-me">About Me</a></li>
-    <li class="skills-scroll"><a href="#skills">Skills</a></li>
-    <li class="resume-scroll"><a href="#resume">Resume</a></li>
-    <li class="projects-scroll"><a href="#projects">Projects</a></li>
-    <li class="contact-me-scroll"><a href="#contact-me">Contact Me</a></li>
-  </ul>
-</header>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a class="brand-logo">Fernando Donaire</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class="about-me-scroll"><a href="#about-me">About Me</a></li>
+            <li class="skills-scroll"><a href="#skills">Skills</a></li>
+            <li class="resume-scroll"><a href="#resume">Resume</a></li>
+            <li class="projects-scroll"><a href="#projects">Projects</a></li>
+            <li class="contact-me-scroll"><a href="#contact-me">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <ul class="side-nav" id="mobile-demo">
+      <li class="about-me-scroll"><a href="#about-me">About Me</a></li>
+      <li class="skills-scroll"><a href="#skills">Skills</a></li>
+      <li class="resume-scroll"><a href="#resume">Resume</a></li>
+      <li class="projects-scroll"><a href="#projects">Projects</a></li>
+      <li class="contact-me-scroll"><a href="#contact-me">Contact Me</a></li>
+    </ul>
+  </header>
   <div class="about-me" id="about-me">
     <h3>About Me</h3>
     <div class="picture-summary">
       <img class="about-me-picture z-depth-2" src="https://i.imgur.com/bh3A8Gy.jpg?1">
       <div class="summary" id="greeting">
         <p>Hi! My name is Fernando Donaire. I'm a full-stack web developer and recently completed a full-time Immersive Web Development program at General Assembly.</p>
-        <p>Prior to this I was working at a software startup doing technical support, but wanted to pursue a more creative career. Working closely with developers at my previous job (many of whom also didn't have a formal CS background) really inspired me learn to code. In my own free time I started learning a little about coding, found that I really enjoyed it, and decided to enroll in the web development course at GA. </p>
-        <p> I decided to pursue a career in web development because I was intrigued by the idea of creating my own web applications rather than troubleshooting existing ones. I love coding because it's the perfect combination of creativity and problem solving. To me, there are few things more exciting than working hard on a project and seeing it come together.</p>
+        <p>Prior to this I was working at a software startup doing technical support, but wanted to pursue a more creative career. Working closely with developers at my previous job (many of whom also didn't have a formal CS background) really inspired me
+          learn to code. In my own free time I started learning a little about coding, found that I really enjoyed it, and decided to enroll in the web development course at GA. </p>
+        <p> I decided to pursue a career in web development because I was intrigued by the idea of creating my own web applications rather than troubleshooting existing ones. I love coding because it's the perfect combination of creativity and problem solving.
+          To me, there are few things more exciting than working hard on a project and seeing it come together.</p>
       </div>
     </div>
   </div>
@@ -87,68 +89,79 @@
     <h3>Projects</h3>
     <div class="row project">
       <div class="col s12 m6">
-        <div class="card">
-          <div class="card-image">
-            <img src="https://i.imgur.com/SnTpSoQ.png" alt="Tic Tac Toe">
-            <!-- <span class="card-title">Tic Tac Toe Game</span> -->
+        <div class="card sticky-action">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="https://i.imgur.com/SnTpSoQ.png" alt="Tic Tac Toe">
           </div>
           <div class="card-content">
-            <h5>Tic Tac Toe</h5>
-            <p>This was my very first coding project. I built a browser-based Tic Tac Toe game using JavaScript, JQuery, Bootstrap, and Ajax to make requests to a pre-built API. The most challenging part of this project was figuring out the game logic.</p>
+            <span class="card-title activator grey-text text-darken-4">Tic Tac Toe<i class="material-icons right">more_vert</i></span>
           </div>
           <div class="card-action">
             <a href="https://nandodonaire.github.io/ticTacToe_Game/" target="_blank">Demo</a>
             <a href="https://github.com/nandodonaire/ticTacToe_Game" target="_blank">GitHub</a>
           </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Tic Tac Toe<i class="material-icons right">close</i></span>
+            <p>This was my very first coding project. I built a browser-based Tic Tac Toe game using JavaScript, JQuery, Bootstrap, and Ajax to make requests to a pre-built API. The most challenging part of this project was figuring out the game logic.</p>
+          </div>
         </div>
       </div>
       <div class="col s12 m6">
-        <div class="card">
-          <div class="card-image">
-            <img src="https://i.imgur.com/qjFYs8r.png" alt="WatchNext">
-            <!-- <span class="card-title">WatchNext</span> -->
+        <div class="card sticky-action">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="https://i.imgur.com/qjFYs8r.png" alt="WatchNext">
           </div>
           <div class="card-content">
-            <h5>WatchNext</h5>
-            <p>This was my first full-stack application. I built the Frontend using JavaScript, JQuery, Bootstrap, and Ajax and the backend API was built using Ruby on Rails. The biggest challenge for this project was using Handlebars to display the data on the client.</p>
+            <span class="card-title activator grey-text text-darken-4">WatchNext<i class="material-icons right">more_vert</i></span>
           </div>
           <div class="card-action">
             <a href="https://nandodonaire.github.io/WatchNext-frontend/" target="_blank">Demo</a>
             <a href="https://github.com/nandodonaire/WatchNext-frontend" target="_blank">Frontend GitHub Repo</a>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">WatchNext<i class="material-icons right">close</i></span>
+            <p>This was my first full-stack application. I built the Frontend using JavaScript, JQuery, Bootstrap, and Ajax and the backend API was built using Ruby on Rails. The biggest challenge for this project was using Handlebars to display the data
+              on the client.</p>
           </div>
         </div>
       </div>
     </div>
     <div class="row project">
       <div class="col s12 m6">
-        <div class="card">
-          <div class="card-image">
-            <img src="https://i.imgur.com/PbwlGk3.png" alt="BitStash">
-            <!-- <span class="card-title">BitStash</span> -->
+        <div class="card sticky-action">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="https://i.imgur.com/PbwlGk3.png" alt="BitStash">
           </div>
           <div class="card-content">
-            <h5>BitStash</h5>
-            <p>This was my first team project which I worked on as part of a 4 developer team. We built a full-stack data storage application that allows users to store files on an Amazon S3 bucket. Frontend was built using JavaScript, JQuery, Bootstrap, and Ajax. Backend API was built using Express, Node.js, and AWS</p>
+            <span class="card-title activator grey-text text-darken-4">BitStash<i class="material-icons right">more_vert</i></span>
           </div>
           <div class="card-action">
             <a href="https://alkazams-shark-assassins.github.io/bitstash-client/" target="_blank">Demo</a>
             <a href="https://github.com/alkazams-shark-assassins/bitstash-client" target="_blank">Frontend GitHub Repo</a>
           </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">BitStash<i class="material-icons right">close</i></span>
+            <p>This was my first team project which I worked on as part of a 4 developer team. We built a full-stack data storage application that allows users to store files on an Amazon S3 bucket. Frontend was built using JavaScript, JQuery, Bootstrap,
+              and Ajax. Backend API was built using Express, Node.js, and AWS.</p>
+          </div>
         </div>
       </div>
       <div class="col s12 m6">
-        <div class="card">
-          <div class="card-image">
-            <img src="https://i.imgur.com/C3qY5KZ.png" alt="BrewJournal">
-            <span class="card-title">BrewJournal</span>
+        <div class="card sticky-action">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="https://i.imgur.com/C3qY5KZ.png" alt="BrewJournal">
           </div>
           <div class="card-content">
-            <h5>BrewJournal</h5>
-            <p>A full-stack web application that allows users to keep track visits to breweries. The client was built using Ember.js and the API was built using Ruby on Rails. This project was challenging because it was my first time using Ember.js which we had learned the week before starting the project.</p>
+            <span class="card-title activator grey-text text-darken-4">BrewJournal<i class="material-icons right">more_vert</i></span>
           </div>
           <div class="card-action">
             <a href="https://nandodonaire.github.io/BrewJournal-client/" target="_blank">Demo</a>
             <a href="https://github.com/nandodonaire/BrewJournal-client" target="_blank">Frontend GitHub Repo</a>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">BrewJournal<i class="material-icons right">close</i></span>
+            <p>A full-stack web application that allows users to keep track visits to breweries. The client was built using Ember.js and the API was built using Ruby on Rails. This project was challenging because it was my first time using Ember.js which
+              we had learned the week before starting the project.</p>
           </div>
         </div>
       </div>
@@ -167,8 +180,6 @@
           <ul>
             <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/fernando-donaire/" target="_blank">LinkedIn</a></li>
             <li><a class="grey-text text-lighten-3" href="https://github.com/nandodonaire/" target="_blank">GitHub</a></li>
-            <!-- <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li> -->
           </ul>
         </div>
       </div>
