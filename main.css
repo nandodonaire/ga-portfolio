@@ -8,6 +8,7 @@ body {
 
 .brand-logo {
   font-size: 20px;
+  margin-left: 15px;
 }
 
 .about-me, .skills, .resume, .projects {
