@@ -3,19 +3,24 @@
 
 <head>
   <title>Fernando Donaire</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="main.css">
+  <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+  <!-- Importing the DevIcons-->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="index.js" type="text/javascript" charset="utf-8" defer></script>
+  <!-- Importing jquery -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <!-- Importing materialize js file -->
+  <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
 </head>
 
 <body class="container-fluid">
+  <header>
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper">
@@ -28,16 +33,17 @@
           <li class="projects-scroll"><a href="#projects">Projects</a></li>
           <li class="contact-me-scroll"><a href="#contact-me">Contact Me</a></li>
         </ul>
-        <ul class="side-nav" id="mobile-demo">
-          <li class="about-me-scroll"><a href="#about-me">About Me</a></li>
-          <li class="skills-scroll"><a href="#skills">Skills</a></li>
-          <li class="resume-scroll"><a href="#resume">Resume</a></li>
-          <li class="projects-scroll"><a href="#projects">Projects</a></li>
-          <li class="contact-me-scroll"><a href="#contact-me">Contact Me</a></li>
-        </ul>
       </div>
     </nav>
   </div>
+  <ul class="side-nav" id="mobile-demo">
+    <li class="about-me-scroll"><a href="#about-me">About Me</a></li>
+    <li class="skills-scroll"><a href="#skills">Skills</a></li>
+    <li class="resume-scroll"><a href="#resume">Resume</a></li>
+    <li class="projects-scroll"><a href="#projects">Projects</a></li>
+    <li class="contact-me-scroll"><a href="#contact-me">Contact Me</a></li>
+  </ul>
+</header>
   <div class="about-me" id="about-me">
     <h3>About Me</h3>
     <div class="picture-summary">
@@ -170,10 +176,10 @@
     <div class="footer-copyright">
       <div class="container">
         © 2018 Copyright Fernando Donaire
-        <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
       </div>
     </div>
   </footer>
+
 </body>
 
 </html>

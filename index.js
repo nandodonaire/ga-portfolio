@@ -3,7 +3,7 @@ $(() => {
   //   $('.parallax').parallax()
   // })
   $(document).ready(function () {
-    $('.button-collapse').sideNav()
+    $(".button-collapse").sideNav()
   })
   // fuctions to add scroll animation when clickin on nav bar buttons.
   $('.about-me-scroll').click(function () {
