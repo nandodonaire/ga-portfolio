@@ -4,6 +4,7 @@ $(() => {
   // })
   $(document).ready(function () {
     $(".button-collapse").sideNav()
+    $('.parallax').parallax()
   })
   // fuctions to add scroll animation when clickin on nav bar buttons.
   $('.about-me-scroll').click(function () {

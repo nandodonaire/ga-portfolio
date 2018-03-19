@@ -27,6 +27,10 @@ body {
   background-size: cover;
 }
 
+.name-header {
+  font-weight: 500;
+}
+
 .about-me {
   height: 500px;
   color: black;
@@ -103,4 +107,14 @@ i {
   width: 22%;
   height: 22%;
   margin-left: -5px;
+}
+
+.linkedin-logo {
+  width: 27%;
+  height: 27%;
+}
+
+.ember-logo {
+  width: 80%;
+  height: 80%;
 }
